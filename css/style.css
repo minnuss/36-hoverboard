@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #2c3e50;
+  padding: 10px;
+}
+
+body .hoverboard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 400px;
+}
+
+body .hoverboard .square {
+  background-color: #1d1d1d;
+  box-shadow: 0 0 2px #000;
+  width: 12px;
+  height: 12px;
+  margin: 2px;
+  transition: 2s ease;
+}
+
+body .hoverboard .square:hover {
+  transition-duration: 0s;
+}
+/*# sourceMappingURL=style.css.map */
